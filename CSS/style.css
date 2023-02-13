@@ -1,11 +1,15 @@
 .flexContainer{
     display:flex;
 }
+<!--My UX Skills sectin coded using CSS flex-->
 div{
     width: 33%;
-    padding: 25px;
-}
-<!--My UX Skills sectin coded using CSS flex-->
+    margin: 50px;
+    padding: 40px;
+    column-rule-width:1px;
+    flex-flow: column wrap; 
+    }
+<!--My Work Section Constructed using CSS Grid-->
 .workGrid{
     margin: 0px 1%;
     display: grid;
@@ -14,10 +18,12 @@ div{
     "Government Site Redesign"
     "Non-profit Redesign"
     ;
-    grid-template-rows: 33% 33% 32%;
+    
     grid-template-columns: 33% 33% 32%;
+    grid-template-rows: 33% 33% 32%;
+    justify-content: space-evenly; 
+    justify-content: space-around;
 }
-<!--My Work Section Constructed using CSS grid-->
 @media only screen and (max-width:600) {
-    <!--need CSS styles for your grid template area here-->
-}
+    body {background-color: darkseagreen;}
+   }
