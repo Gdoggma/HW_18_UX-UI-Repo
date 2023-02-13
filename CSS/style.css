@@ -1,0 +1,23 @@
+.flexContainer{
+    display:flex;
+}
+div{
+    width: 33%;
+    padding: 25px;
+}
+<!--My UX Skills sectin coded using CSS flex-->
+.workGrid{
+    margin 0px 1%;
+    display: grid;
+    grid-template-areas:
+    "Mobile App"
+    "Government Site Redesign"
+    "Non-profit Redesign"
+    ;
+    grid-template-rows: 33% 33% 32%;
+    grid-template-columns: 33% 33% 32%;
+}
+<!--My Work Section Constructed using CSS grid-->
+@media only screen and (max-width:600) {
+    <!--need CSS styles for your grid template area here-->
+}
